@@ -1,0 +1,26 @@
+.navbar-container{
+    background-color: #3E2211;
+}
+
+.container{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    padding: 10px 0;
+}
+
+#font-navigation{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: #EE9D2E;
+}
+
+.pages__link{
+    margin-left: 35px;
+    color: #EE9D2E;
+}
+
+#img__navigation{
+    width: 35px;
+    margin: 0 25px;
+}

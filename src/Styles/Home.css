@@ -1,0 +1,12 @@
+.img__home__container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img__home{
+    width: 85%;
+    border-radius: 30px;
+    margin-top: 25px;
+}

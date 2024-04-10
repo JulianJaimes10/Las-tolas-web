@@ -1,0 +1,73 @@
+[
+    {
+        "id":1,
+        "name":"¡La Que Manda!",
+        "ingredients":[
+            "Carne",
+            "Pollo",
+            "Tomáte",
+            "Cebolla",
+            "Lechuga",
+            "Queso",
+            "Salsas"
+        ],
+        "price":25000,
+        "image":"h-la-que-manda.jpg"
+    },
+    {
+        "id":2,
+        "name":"La Monacha",
+        "ingredients":[
+            "Carne",
+            "Tomáte",
+            "Cebolla",
+            "Lechuga",
+            "Queso",
+            "Salsas"
+        ],
+        "price":23000,
+        "image":"h-la-monacha.jpg"
+    },
+    {
+        "id":3,
+        "name":"La Guata",
+        "ingredients":[
+            "Carne",
+            "Tomáte",
+            "Cebolla",
+            "Lechuga",
+            "Queso",
+            "Salsas"
+        ],
+        "price":21000,
+        "image":"h-la-guata.jpg"
+    },
+    {
+        "id":4,
+        "name":"La Doña",
+        "ingredients":[
+            "Pollo",
+            "Tomáte",
+            "Cebolla",
+            "Lechuga",
+            "Queso",
+            "Salsas"
+        ],
+        "price":18000,
+        "image":"h-la-doña.jpg"
+    },
+    {
+        "id":5,
+        "name":"La Siamesa",
+        "ingredients":[
+            "Doble Carne",
+            "Tomáte",
+            "Cebolla",
+            "Lechuga",
+            "Queso",
+            "Salsas"
+        ],
+        "price":27000,
+        "image":"h-la-siamesa.jpg"
+    }
+]

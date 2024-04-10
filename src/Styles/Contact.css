@@ -1,0 +1,11 @@
+.form__container{
+    margin-top: 120px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 50px;
+}
+
+p{
+    padding: 16.5px;
+}

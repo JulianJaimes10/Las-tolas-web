@@ -1,0 +1,27 @@
+
+.menu__and__ticket{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu__container{
+    margin-top: 120px;
+    text-align: center;
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    width: 100%;
+}
+
+.img__menu{
+    width: 24rem;
+    margin-bottom: 25px;
+}
+
+.btn{
+    background-color: #D33741;
+    border: 1px solid #D33741;
+    color: #F2E858;
+    margin-top: 5px;
+}

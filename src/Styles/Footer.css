@@ -1,0 +1,33 @@
+footer{
+    display: grid;
+    grid-template-rows: 1fr 1fr fr;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    padding-top: 25px;
+    background-color: #3E2211;
+    color: #EE9D2E;
+}
+
+.apps__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+h2{
+    margin-right: 25px;
+}
+
+.img__footer{
+    width: 50px;
+    margin: 0 5px;
+}
+
+p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+}
