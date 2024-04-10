@@ -2,7 +2,7 @@ import React from 'react';
 import { Image } from 'react-bootstrap';
 import '../Styles/Footer.css';
 import whatsapp from '../images/logo-whatsapp.png';
-import instagram from '../images//logo-instagram.png';
+import instagram from '../images/logo-instagram.png';
 import facebook from '../images/logo-facebook.png';
 
 export default function Footer() {
