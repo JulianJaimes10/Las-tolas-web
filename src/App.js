@@ -11,10 +11,10 @@ function App() {
 
   return (
     <>
-        { /* Aquí se renderiza el menú de navegación */ }
-        <NavbarPage />
+        { /* Render Navigation menu */ }
+        <NavbarPage productsBag={ Menu.productsBag } />
 
-        { /* Aquí se renderiza el contenido actual de la página */ }
+        { /* Render current page content */ }
         <BrowserRouter>
           <Routes>
             <Route path='/' element= { <Home /> } />
@@ -24,7 +24,7 @@ function App() {
           </Routes>
         </BrowserRouter>
 
-        { /* Aquí se renderiza el pié de página */ }
+        { /* Render footer */ }
         <Footer />
     </>
   );

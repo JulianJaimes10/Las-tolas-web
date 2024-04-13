@@ -12,6 +12,7 @@
             "Salsas"
         ],
         "price":25000,
+        "quantity": 1,
         "image":"h-la-que-manda.jpg"
     },
     {
@@ -26,6 +27,7 @@
             "Salsas"
         ],
         "price":23000,
+        "quantity": 1,
         "image":"h-la-monacha.jpg"
     },
     {
@@ -40,6 +42,7 @@
             "Salsas"
         ],
         "price":21000,
+        "quantity": 1,
         "image":"h-la-guata.jpg"
     },
     {
@@ -54,6 +57,7 @@
             "Salsas"
         ],
         "price":18000,
+        "quantity": 1,
         "image":"h-la-doña.jpg"
     },
     {
@@ -68,6 +72,7 @@
             "Salsas"
         ],
         "price":27000,
+        "quantity": 1,
         "image":"h-la-siamesa.jpg"
     }
 ]

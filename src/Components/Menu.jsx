@@ -1,14 +1,26 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
 import '../Styles/Menu.css';
+import { useState } from 'react';
 
 export default function Menu({ products }) {
 
-    const addManda = () => { console.log(products.MANDA.name, '$' + products.MANDA.price) };
-    //const addMonacha = () => { console.log(products.MONACHA.name, '$' + products.MONACHA.price) };
-    //const addGuata = () => { console.log(products.GUATA.name, '$' + products.GUATA.price) };
-    //const addDonia = () => { console.log(products.DONIA.name, '$' + products.DONIA.price) };
-    //const addSiamesa = () => { console.log(products.SIAMESA.name, '$' + products.SIAMESA.price) };
+    // Initialize the productsBag variable with an empty array and declare the setProductsBag method to chance the value when a product is add
+    const [productsBag, setProductsBag] = useState([]);
+
+    const addProducts = product => {
+        console.log(product);
+        if(productsBag.find(item => item.id === product.id)){
+            const productsList = productsBag.map(item => 
+                item.id === product.id 
+                ? { ...item, quantity: item.quantity + 1, price: product.price * (item.quantity + 1)} 
+                : item
+            );
+            return setProductsBag([...productsList])
+        }
+        setProductsBag([...productsBag, product]);
+    };
+    console.log(productsBag)
 
   return (
     <div className='menu__container'>
@@ -21,7 +33,7 @@ export default function Menu({ products }) {
                             Some quick example text to build on the card title and make up the
                             bulk of the card's content - ${ product.price }.
                         </Card.Text>
-                        <button className='btn' onClick={ addManda }>Agregar</button>
+                        <button className='btn' onClick={ () => addProducts(product) }>Agregar</button>
                     </Card.Body>
                 </Card>
             )) 
