@@ -1,26 +1,22 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
 import '../Styles/Menu.css';
-import { useState } from 'react';
 
-export default function Menu({ products }) {
-
-    // Initialize the productsBag variable with an empty array and declare the setProductsBag method to chance the value when a product is add
-    const [productsBag, setProductsBag] = useState([]);
+export default function Menu({ products, productsBag, setProductsBag, total, setTotal }) {
 
     const addProducts = product => {
-        console.log(product);
         if(productsBag.find(item => item.id === product.id)){
             const productsList = productsBag.map(item => 
                 item.id === product.id 
                 ? { ...item, quantity: item.quantity + 1, price: product.price * (item.quantity + 1)} 
                 : item
             );
+            setTotal(total + (product.price * product.quantity))
             return setProductsBag([...productsList])
         }
         setProductsBag([...productsBag, product]);
+        setTotal(total + (product.price * product.quantity))
     };
-    console.log(productsBag)
 
   return (
     <div className='menu__container'>

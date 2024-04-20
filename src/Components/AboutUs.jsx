@@ -17,7 +17,7 @@ export default function AboutUs() {
         Nemo quibusdam quasi, mollitia ab maxime modi dignissimos voluptatem deleniti commodi minima dicta, placeat debitis molestias soluta tempora, quos corporis repellendus nobis cumque voluptatum? Iste odio perspiciatis cum suscipit qui!
         Neque libero, quasi nemo necessitatibus a quia voluptatum, nisi consequuntur corrupti quod eos harum? Ea, esse ab maiores alias a, voluptatibus, non unde iste quasi ex eius praesentium saepe sunt.</p>
 
-        <h1>História</h1>
+        <h1>Historia</h1>
         <div className='video__container'>
             <video src="" width={640} height={480}>Lo sentimos, este vídeo no se puede reproducir en tu navegador</video>
         </div>

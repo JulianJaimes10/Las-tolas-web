@@ -24,3 +24,48 @@
     width: 35px;
     margin: 0 25px;
 }
+
+.product-list-bag {
+    position: absolute;
+    top: 80px;
+    right: auto;
+    background-color: #fff;
+    width: 400px;
+    z-index: 1;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.20);
+    border-radius: 10px;
+}
+
+.products-in-bag {
+    display: grid;
+    grid-template-columns: 4fr 0.5fr;
+    padding: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.20);
+}
+
+.products-in-bag img {
+    width: 32px;
+    height: 32px;
+    margin-top: 24px;
+}
+
+.info-product {
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+.quantity-products-bag {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.product-name {
+    font-size: 20px;
+    width: 200px;
+}
+
+.total-price-pay {
+    text-align: center;
+    font-weight: bold;
+}
