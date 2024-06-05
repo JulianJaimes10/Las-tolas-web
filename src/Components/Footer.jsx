@@ -11,11 +11,11 @@ export default function Footer() {
         <footer>
           <div className='apps__container'>
               <h2>Encuentranos en: </h2>
-              <Image src= { whatsapp } alt='Logo de Whatsapp' className='img__footer' />
-              <Image src= { instagram } alt='Logo de Instagram' className='img__footer' />
-              <Image src= { facebook } alt='Logo de Facebook' className='img__footer' />
+              <a href='https://wa.me/message/VHL2FFPQD6RAE1'><Image src= { whatsapp } alt='Logo de Whatsapp' className='img__footer' /></a>
+              <a href='https://www.instagram.com/las.tolas_?igsh=dXY4ajU5cW05NDg1'><Image src= { instagram } alt='Logo de Instagram' className='img__footer' /></a>
+              <a href='https://www.facebook.com/share/MNVdm4oTWL4mEESB/?mibextid=oFDknk'><Image src= { facebook } alt='Logo de Facebook' className='img__footer' /></a>
           </div>
-          <p> Estamos ubicados en la Transversal 4 # 4E - 15 Barrio La Ceiba, Cucuta, Nort de Santander</p>
+          <p> Estamos ubicados en la Transversal 4 # 4E - 15 Barrio La Ceiba, Cucuta, Norte de Santander</p>
           <p> © 2024 Todos los derechos reservados</p>
         </footer>
     </>

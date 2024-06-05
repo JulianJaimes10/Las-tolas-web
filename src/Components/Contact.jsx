@@ -3,6 +3,9 @@ import { Form } from 'react-bootstrap'
 import '../Styles/Contact.css'
 
 export default function Contact() {
+
+  // This form to send an email stay stop until the client have created the email to the restaurant and take the desition of apply the send of email.
+
   return (
     <div className='form__container'>
         <Form>
