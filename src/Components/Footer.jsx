@@ -15,7 +15,7 @@ export default function Footer() {
               <a href='https://www.instagram.com/las.tolas_?igsh=dXY4ajU5cW05NDg1'><Image src= { instagram } alt='Logo de Instagram' className='img__footer' /></a>
               <a href='https://www.facebook.com/share/MNVdm4oTWL4mEESB/?mibextid=oFDknk'><Image src= { facebook } alt='Logo de Facebook' className='img__footer' /></a>
           </div>
-          <p> Estamos ubicados en la Transversal 4 # 4E - 15 Barrio La Ceiba, Cucuta, Norte de Santander</p>
+          <p> We are located in Wherever # 4E - 16 any neighborhood</p>
           <p> © 2024 Todos los derechos reservados</p>
         </footer>
     </>
