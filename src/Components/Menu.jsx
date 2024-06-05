@@ -2,21 +2,7 @@ import React from 'react';
 import Card from 'react-bootstrap/Card';
 import '../Styles/Menu.css';
 
-export default function Menu({ products, productsBag, setProductsBag, total, setTotal }) {
-
-    const addProducts = product => {
-        if(productsBag.find(item => item.id === product.id)){
-            const productsList = productsBag.map(item => 
-                item.id === product.id 
-                ? { ...item, quantity: item.quantity + 1, price: product.price * (item.quantity + 1)} 
-                : item
-            );
-            setTotal(total + (product.price * product.quantity))
-            return setProductsBag([...productsList])
-        }
-        setProductsBag([...productsBag, product]);
-        setTotal(total + (product.price * product.quantity))
-    };
+export default function Menu({ products, addProducts }) {
 
   return (
     <div className='menu__container'>

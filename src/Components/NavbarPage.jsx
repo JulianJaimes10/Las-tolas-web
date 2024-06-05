@@ -8,7 +8,7 @@ import bag from '../images/bolsa.svg';
 import imgDelete from '../images/borrar.png';
 import { useState } from 'react';
 
-function NavbarPage({ productsBag, total }) {
+function NavbarPage({ saveBag, total, deleteFromBag }) {
 
   // This hook initialize the active variable with a false value and declare the setActive method to change active value
   const [active, setActive] = useState(false);
@@ -29,17 +29,17 @@ function NavbarPage({ productsBag, total }) {
             <Nav className="ms-auto px-3">
               <Nav.Link>
                 <Image src={ bag } onClick={ showBag } />
-                { !active ? (
+                { active ? (
                   <>
                     <div className='product-list-bag'>
-                      { productsBag.map(product => (
+                      { saveBag.map(product => (
                         <div className='products-in-bag' key={ product.id }>
                           <div className='info-product'>
                             <span className='quantity-products-bag'>{ product.quantity }</span>
                             <p className='product-name'>{ product.name }</p>
                             <span className='product-price'>${ product.price }</span>
                           </div>
-                          <img src={ imgDelete } alt="" />
+                          <img src={ imgDelete } alt="Delete icon" onClick={ () => deleteFromBag(product) } />
                         </div>
                       )) }
                       <div className='total-price-pay'>Total: ${ total }</div>
