@@ -5,8 +5,9 @@
     align-items: center;
 }
 .img__home{
-    width: 1500px;
-    height: 600px;
+    width: 1450px;
+    height: 580px;
     border-radius: 30px;
-    margin-top: 25px;
+    margin-top: 110px;
+    margin-bottom: 20px;
 }

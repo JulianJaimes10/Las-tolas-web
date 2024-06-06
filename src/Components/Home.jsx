@@ -3,10 +3,7 @@ import '../Styles/Home.css';
 import { Image } from 'react-bootstrap';
 import { useState } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-import Carouselmanda from '../images/CarouselManda.jpeg';
-import CarouselGuata from '../images/CarouselGuata.jpeg';
-import CarouselSiamesa from '../images/CarouselSiamesa.jpeg';
-import CarouselDonia from '../images/CarouselDonia.jpeg';
+import portada from '../images/portada.jpg';
 
 export default function Home() {
 
@@ -17,19 +14,16 @@ export default function Home() {
     };
 
   return (
-    <div className='img__home__container my-5 py-5'>
+    <div className='img__home__container'>
         <Carousel activeIndex={index} onSelect={handleSelect}>
           <Carousel.Item>
-            <Image src={ Carouselmanda } className='img__home' />
+            <Image src={ portada } className='img__home' />
           </Carousel.Item>
           <Carousel.Item>
-            <Image src={ CarouselGuata }  className='img__home' />
+            <Image src={ portada }  className='img__home' />
           </Carousel.Item>
           <Carousel.Item>
-            <Image src={ CarouselSiamesa } className='img__home' />
-          </Carousel.Item>
-          <Carousel.Item>
-            <Image src={ CarouselDonia } text="Third slide" className='img__home' />
+            <Image src={ portada } className='img__home' />
           </Carousel.Item>
         </Carousel>
     </div>

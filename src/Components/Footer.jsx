@@ -11,9 +11,11 @@ export default function Footer() {
         <footer>
           <div className='apps__container'>
               <h2>Encuentranos en: </h2>
-              <a href='https://wa.me/message/VHL2FFPQD6RAE1'><Image src= { whatsapp } alt='Logo de Whatsapp' className='img__footer' /></a>
-              <a href='https://www.instagram.com/las.tolas_?igsh=dXY4ajU5cW05NDg1'><Image src= { instagram } alt='Logo de Instagram' className='img__footer' /></a>
-              <a href='https://www.facebook.com/share/MNVdm4oTWL4mEESB/?mibextid=oFDknk'><Image src= { facebook } alt='Logo de Facebook' className='img__footer' /></a>
+              <div>
+                <a href='https://wa.me/message/VHL2FFPQD6RAE1'><Image src= { whatsapp } alt='Logo de Whatsapp' className='img__footer' /></a>
+                <a href='https://www.instagram.com/las.tolas_?igsh=dXY4ajU5cW05NDg1'><Image src= { instagram } alt='Logo de Instagram' className='img__footer' /></a>
+                <a href='https://www.facebook.com/share/MNVdm4oTWL4mEESB/?mibextid=oFDknk'><Image src= { facebook } alt='Logo de Facebook' className='img__footer' /></a>
+              </div>
           </div>
           <p> We are located in Wherever # 4E - 16 any neighborhood</p>
           <p> © 2024 Todos los derechos reservados</p>
@@ -21,4 +23,3 @@ export default function Footer() {
     </>
   )
 }
-
